@@ -12,14 +12,15 @@ To update an already installed behave version, use:
     pip install -U behave
 
 Directory structure:
-features/
-features/signup.feature
-features/login.feature
-features/account_details.feature
-features/environment.py
-features/steps/
-features/steps/website.py
-features/steps/utils.py
+
+    features/
+    features/signup.feature
+    features/login.feature
+    features/account_details.feature
+    features/environment.py
+    features/steps/
+    features/steps/website.py
+    features/steps/utils.py
 
 
 
