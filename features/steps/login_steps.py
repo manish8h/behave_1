@@ -18,6 +18,7 @@ def step_impl(context):
 
 # Whens
 
+
 @when('the user searches for "{phrase}"')
 def step_impl(context, phrase):
     login_page = LoginPage(context.browser)
@@ -44,6 +45,7 @@ def step_impl(context, phrase):
     #     when I press the big red button
     #      and I duck
     # ''')
+
 
 @then('results are shown for "{phrase}"')
 def step_impl(context, phrase):
